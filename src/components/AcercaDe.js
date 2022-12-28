@@ -5,7 +5,12 @@ import { AiFillThunderbolt } from 'react-icons/ai';
 import { SiMysql, SiMaterialui, SiRedux } from 'react-icons/si';
 import { IoIosRocket, IoLogoNodejs } from 'react-icons/io';
 
+import useMediaQuery from './useMediaQuery.js'
+
 const AcercaDe = () => {
+
+    const matches = useMediaQuery("(max-width: 630px)");
+
   return (
     <section className='acerca_wrapper' >
 
@@ -22,28 +27,63 @@ const AcercaDe = () => {
         <div className='acerca_wrapper__preferencias'>
             <h3>Preferencias</h3>
             <div className='icon_container'>
-                <div data-aos="flip-right"data-aos-duration="1500" data-aos-delay="500">
-                    <span>
-                        <FaMobileAlt size='5rem' color='#434244'/>
-                    </span>
-                    <p>Mi código funcionarán en cualquier dispositivo, grande o pequeño.</p>
 
-                </div>
+                {
+                    matches ?
+                    <> 
+                        <div data-aos="flip-right" data-aos-duration="1000" data-aos-delay="0" >
+                            <span>
+                                <FaMobileAlt size='5rem' color='#434244'/>
+                            </span>
+                            <p>Mi código funcionarán en cualquier dispositivo, grande o pequeño.</p>
 
-                <div data-aos="flip-right" data-aos-duration="2000" data-aos-delay="1000">
-                    <span>
-                        <IoIosRocket size='5rem' color='#C0392B'/>
-                    </span>
-                    <p>Hagamos páginas web dinámicas.</p>
+                        </div>
 
-                </div>
+                        <div data-aos="flip-right" data-aos-duration="1500" >
+                            <span>
+                                <IoIosRocket size='5rem' color='#C0392B'/>
+                            </span>
+                            <p>Hagamos páginas web dinámicas.</p>
+        
+                        </div>
+        
+                        <div data-aos="flip-right" data-aos-duration="1500" >
+                            <span>
+                                <AiFillThunderbolt size='5rem' color='#F4D03F'/>
+                            </span>
+                            <p>Tiempos de carga rápidos e interacción sin demoras.</p>
+                        </div>
+                    </>
+                    :
+                    (
+                        <> 
+                            <div data-aos="flip-right" data-aos-duration="1000" data-aos-delay="0" >
+                                <span>
+                                    <FaMobileAlt size='5rem' color='#434244'/>
+                                </span>
+                                <p>Mi código funcionarán en cualquier dispositivo, grande o pequeño.</p>
+        
+                            </div>
+        
+                            <div data-aos="flip-right" data-aos-duration="1000" data-aos-delay="500">
+                                <span>
+                                    <IoIosRocket size='5rem' color='#C0392B'/>
+                                </span>
+                                <p>Hagamos páginas web dinámicas.</p>
+            
+                            </div>
+            
+                            <div data-aos="flip-right" data-aos-duration="1000" data-aos-delay="1000">
+                                <span>
+                                    <AiFillThunderbolt size='5rem' color='#F4D03F'/>
+                                </span>
+                                <p>Tiempos de carga rápidos e interacción sin demoras.</p>
+                            </div>
+                        </>
+                    )
+                }
 
-                <div data-aos="flip-right" data-aos-duration="2500" data-aos-delay="1500">
-                    <span>
-                        <AiFillThunderbolt size='5rem' color='#F4D03F'/>
-                    </span>
-                    <p>Tiempos de carga rápidos e interacción sin demoras.</p>
-                </div>
+
             </div>
         </div>
 

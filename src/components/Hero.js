@@ -1,7 +1,4 @@
 import React, {useRef} from 'react'
-import HeroImg from '../images/hero.jpg'
-
-
 
 const Hero = () => {
 
