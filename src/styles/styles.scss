@@ -1,0 +1,15 @@
+// ui settings
+@use './base/normalize';
+@use './base/settings';
+
+// components
+@use './components/navbar';
+@use './components/hero';
+@use './components/home';
+@use './components/acerca';
+@use './components/contacto';
+@use './components/portafolio';
+@use './components/modal';
+@use './components/carrusel';
+
+// screens
