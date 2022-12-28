@@ -22,7 +22,7 @@ const AcercaDe = () => {
         <div className='acerca_wrapper__preferencias'>
             <h3>Preferencias</h3>
             <div className='icon_container'>
-                <div>
+                <div data-aos="flip-right"data-aos-duration="1500" data-aos-delay="500">
                     <span>
                         <FaMobileAlt size='5rem' color='#434244'/>
                     </span>
@@ -30,7 +30,7 @@ const AcercaDe = () => {
 
                 </div>
 
-                <div>
+                <div data-aos="flip-right" data-aos-duration="2000" data-aos-delay="1000">
                     <span>
                         <IoIosRocket size='5rem' color='#C0392B'/>
                     </span>
@@ -38,7 +38,7 @@ const AcercaDe = () => {
 
                 </div>
 
-                <div>
+                <div data-aos="flip-right" data-aos-duration="2500" data-aos-delay="1500">
                     <span>
                         <AiFillThunderbolt size='5rem' color='#F4D03F'/>
                     </span>
@@ -49,7 +49,7 @@ const AcercaDe = () => {
 
 
 
-        <div className='acerca_wrapper__tecnologias'>   
+        <div className='acerca_wrapper__tecnologias' data-aos="fade-right" data-aos-duration="1000">   
             <h3>Tecnologías</h3>
             <div className='icon_container'>
                 <DiReact          size='5rem' color='#61DBFB'/>

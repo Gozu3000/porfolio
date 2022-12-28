@@ -1,6 +1,5 @@
 import React from 'react'
 import Carrusel from './Carrusel'
-// MdClose
 import { MdClose } from 'react-icons/md';
 
 

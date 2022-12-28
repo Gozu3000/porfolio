@@ -20,7 +20,7 @@ const Portafolio = () => {
         <div className='portafolio_container'>
 
         {proyectos.map((el,index)=>(
-            <div key={index} className='carta_proyecto' style={{backgroundImage:`url(${el.images[0]})`}}>
+            <div key={index} className='carta_proyecto' style={{backgroundImage:`url(${el.images[0]})`}} >
                 <div className='covertor'>
                     <h4>{el.name}</h4>
                     <p>{el.tecnology.join(' / ')}</p>  

@@ -1,0 +1,77 @@
+.colaboraciones_wrapper{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    position: relative;
+    gap: 30px;
+
+    h2{
+        margin: 0;
+        text-align: center;
+        font-weight: bold;
+        font-size: 40px;
+        color: #444649;
+        position: relative;
+        width: 300px;
+
+        &::after{
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 100%;
+            width: 100%;
+            height: 4px;
+            background-color: #616161;
+
+        }
+
+        @media screen and (max-width: 630px){
+            font-size: 32px;
+            width: 250px;
+        }
+    }
+
+    &__section{
+        display: flex;
+        flex-direction: row;
+
+        @media screen and (max-width: 630px){
+            flex-direction: column;
+        }
+
+        figure{
+            img{
+                width: 100px;
+                height: 100px;
+            }
+            figcaption{
+                text-align: center;
+                font-weight: bold;
+                margin-top: 10px;
+            }
+            @media screen and (max-width: 630px){
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .datos{
+            h3{
+                margin-bottom: 0;
+            }
+            .puesto{
+                color: #1b242f;
+                font-weight: 600;
+            }
+            p{
+                text-align: justify;
+            }
+        }
+    }
+}
