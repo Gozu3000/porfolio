@@ -6,10 +6,11 @@ import Contacto from './components/Contacto';
 import Hero from './components/Hero';
 import Colaboraciones from './components/Colaboraciones';
 
-const Home = () => {
+const App = () => {
 
     const [isOpen, setIsOpen] = useState(false)
     function openMenu(){ setIsOpen(!isOpen)}
+    function closeMenu(){ setIsOpen(false)}
 
   return (
     
@@ -19,10 +20,10 @@ const Home = () => {
             <div className='navbar_wrapper__container_span_icon'>
                 <div className= 'container_icon' onClick={openMenu} >   <HiMenu    size='2rem' />   </div>
                 <div className={`container_span ${isOpen && 'open'}`} >
-                    <a href='#acerca'>Acerca de</a>
-                    <a href='#portfolio'>Portafolio</a>
-                    <a href='#colaboraciones'>Colaboraciones</a>
-                    <a href='#contacto'>Contacto</a>
+                    <a href='#acerca'           onClick={closeMenu}>Acerca de</a>
+                    <a href='#portfolio'        onClick={closeMenu}>Portafolio</a>
+                    <a href='#colaboraciones'   onClick={closeMenu}>Colaboraciones</a>
+                    <a href='#contacto'         onClick={closeMenu}>Contacto</a>
                 </div>
             </div>
         </div>
@@ -52,4 +53,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default App
