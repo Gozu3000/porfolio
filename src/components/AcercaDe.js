@@ -19,7 +19,7 @@ const AcercaDe = () => {
         <div className='acerca_wrapper__quien_soy'>
             <h3>¿Quién soy?</h3>
             <div className='perfil_container'>
-                <img src="https://scontent.flim19-1.fna.fbcdn.net/v/t1.18169-9/17626384_100229067192303_828325239471773154_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=U_7XZCP5Er4AX9nGUVR&_nc_ht=scontent.flim19-1.fna&oh=00_AfBImp5mE4CdoDLXqZmFyxT65LZzzu0gVbSCl7PaY_-Axw&oe=63D03D25" alt="img" />
+                <img src="https://scontent.flim19-1.fna.fbcdn.net/v/t1.18169-9/17626384_100229067192303_828325239471773154_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=GN8zazEkYGUAX8oDzz7&_nc_ht=scontent.flim19-1.fna&oh=00_AfBhNjthoavP1lNi0Az0-T5waN5jQjt-mnLpH2xAKC5y_A&oe=6403A7A5" alt="img" />
                 <p>Soy desarrollador front-end. Tengo una gran pasión por seguir aprendiendo tecnologías. Me gusta hacer aplicaciones web dinámicas e intuitivas como esta.<br />¡Hagamos algo especial 😃!</p>
             </div>
         </div>
