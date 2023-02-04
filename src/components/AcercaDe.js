@@ -1,8 +1,8 @@
 import React from 'react'
-import { FaMobileAlt, FaSass } from 'react-icons/fa';
+import { FaMobileAlt, FaSass, FaPhp } from 'react-icons/fa';
 import { DiReact } from 'react-icons/di';
 import { AiFillThunderbolt } from 'react-icons/ai';
-import { SiMysql, SiMaterialui, SiRedux } from 'react-icons/si';
+import { SiMysql, SiMaterialui, SiRedux, SiPhp } from 'react-icons/si';
 import { IoIosRocket, IoLogoNodejs } from 'react-icons/io';
 
 import useMediaQuery from './useMediaQuery.js'
@@ -98,6 +98,7 @@ const AcercaDe = () => {
                 <SiMysql          size='5rem' color='#00758F'/>
                 <SiMaterialui     size='5rem' color='blue'/>
                 <SiRedux          size='5rem' color='#764abc'/>
+                <SiPhp            size='6rem' color='#764abc'/>
             </div>
         </div>
 
