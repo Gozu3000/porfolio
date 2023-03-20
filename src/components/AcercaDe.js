@@ -1,9 +1,10 @@
 import React from 'react'
-import { FaMobileAlt, FaSass, FaPhp } from 'react-icons/fa';
+import { FaMobileAlt, FaSass } from 'react-icons/fa';
 import { DiReact } from 'react-icons/di';
 import { AiFillThunderbolt } from 'react-icons/ai';
 import { SiMysql, SiMaterialui, SiRedux, SiPhp } from 'react-icons/si';
 import { IoIosRocket, IoLogoNodejs } from 'react-icons/io';
+import Perfil from '../images/perfil.jpg'
 
 import useMediaQuery from './useMediaQuery.js'
 
@@ -19,7 +20,7 @@ const AcercaDe = () => {
         <div className='acerca_wrapper__quien_soy'>
             <h3>¿Quién soy?</h3>
             <div className='perfil_container'>
-                <img src="https://scontent.flim19-1.fna.fbcdn.net/v/t1.18169-9/17626384_100229067192303_828325239471773154_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=GN8zazEkYGUAX8oDzz7&_nc_ht=scontent.flim19-1.fna&oh=00_AfBhNjthoavP1lNi0Az0-T5waN5jQjt-mnLpH2xAKC5y_A&oe=6403A7A5" alt="img" />
+                <img src={Perfil} alt="img" />
                 <p>Soy desarrollador front-end. Tengo una gran pasión por seguir aprendiendo tecnologías. Me gusta hacer aplicaciones web dinámicas e intuitivas como esta.<br />¡Hagamos algo especial 😃!</p>
             </div>
         </div>
