@@ -24,7 +24,8 @@ export const proyectos =[
         name:'Fronted-Mentor: Validación de tarjeta',
         description:'Resuelvo un challenge de fronted mentor. El cual pide una tarjeta de crédito responsive, que se actualice los datos ingresados en los inputs y se muestre en la tarjeta.',
         tecnology:['React'],
-        images:[CreditCardDatos, CreditCardErrors ]
+        images:[CreditCardDatos, CreditCardErrors ],
+        link:'https://modelo-prueba-tarj.vercel.app/'
     },
     {
         name:'Pokédex',
@@ -38,7 +39,6 @@ export const proyectos =[
         description:'En este proyecto creo una página web para una pollería ficticia. Esta es una SPA responsive y con rutas.',
         tecnology:['React'],
         images:[Polleria, PolleriaVista, PolleriaResponsive],
-        enlace:'https://page-polleria.vercel.app/',
-        link:'https://modelo-prueba-tarj.vercel.app/'
+        link:'https://page-polleria.vercel.app/',
     }
 ]

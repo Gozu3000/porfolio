@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import {useState} from 'react'
 import Modal from './Modal'
 import { proyectos } from './proyectos'
 
@@ -10,6 +10,11 @@ const Portafolio = () => {
 
     const openModal = () => {setIsOpen(!isopen)}
     const closeModal = () => {setIsOpen(false)}
+
+    const handleClick = (el) =>{
+        openModal(); 
+        setDatos(el)
+    }
 
   return (
     <div className='portafolio_wrapper'>
@@ -24,7 +29,7 @@ const Portafolio = () => {
                 <div className='covertor'>
                     <h4>{el.name}</h4>
                     <p>{el.tecnology.join(' / ')}</p>  
-                    <button onClick={()=>{openModal(); setDatos(el)}}>Ver más</button>
+                    <button onClick={()=>{handleClick(el)}}>Ver más</button>
                 </div>
             </div>
         ))}

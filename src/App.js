@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import {useState} from 'react'
 import { HiMenu } from 'react-icons/hi';
 import AcercaDe from './components/AcercaDe';
 import Portafolio from './components/Portafolio';
@@ -13,7 +13,7 @@ const App = () => {
     function closeMenu(){ setIsOpen(false)}
 
   return (
-    
+ 
     <div className='home_wrapper'>
 
         <div className='navbar_wrapper' data-aos="fade-down" data-aos-duration="1500">
@@ -46,8 +46,9 @@ const App = () => {
             <Contacto />
         </section>
 
-
-        <Hero />
+        <section  data-aos="fade-right" data-aos-duration="1000">
+            <Hero />
+        </section>
 
     </div>
   )

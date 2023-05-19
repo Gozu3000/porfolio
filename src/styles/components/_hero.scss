@@ -5,15 +5,14 @@
     .hero{
         margin: 0;
         padding: 0;
+        min-height: 100vh;
         height: 100vh;
         width: 100%;
-
-        // background-image:(linear-gradient(to right, #297fb9aa, #6dd4fa50, #ffffffad)), url('../../images/hero.jpg');
-        background-image: url('../../images/hero.jpg');
+        background-image: url('https://res.cloudinary.com/dzcvicnlw/image/upload/v1684448837/portfolio/hero_sqi4yx.jpg');
+        // background-attachment: fixed;
         background-position:center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-attachment: fixed;
         position: relative;
 
         .container{
@@ -23,7 +22,6 @@
             height: 100%;
             background-color: rgba(0, 0, 0, 0.438);
             // padding-top: 80px;
-
             display: flex;
             flex-direction: column;
             justify-content: center;

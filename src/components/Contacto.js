@@ -13,7 +13,7 @@ const Contacto = () => {
                 <span>LinkedIn</span>
             </a>
                 
-            <a href='https://github.com/Gozu3000' target='_blank'>
+            <a href='https://github.com/ericksanchezcorrea' target='_blank'>
                 <span><BsGithub   color='black'  size='3rem' /> </span> 
                 <span>GitHub</span>
             </a>
