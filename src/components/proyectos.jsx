@@ -18,7 +18,7 @@ export const proyectos =[
         description:'Una tienda de laptops con su respectivo carrito de compras. Para ello cree un api falsa(mockapi) para poder consumir los datos e utilicé redux para el carrito de compras.',
         tecnology:['React', 'Material UI', 'Redux Toolkit'],
         images:[Sales, CarritoResponsive, Carrito, LaptopId],
-        link:'https://sale-of-laptops-main.vercel.app/'
+        link:'https://laptops-ecommerce.vercel.app/'
     },
     {
         name:'Fronted-Mentor: Validación de tarjeta',
